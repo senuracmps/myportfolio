@@ -10,6 +10,15 @@
   --transition: 0.3s ease;
 }
 
+body.dark-mode {
+  --primary: #1fc8a1;
+  --primary-dark: #18a587;
+  --light-bg: #1e1e1e;
+  --text-dark: #f5f5f5;
+  --text-gray: #bdbdbd;
+  --white: #121212;
+}
+
 * {
   margin: 0;
   padding: 0;

@@ -120,3 +120,51 @@ a {
   background: var(--white);
   border-radius: 2px;
 }
+
+.hero {
+  padding: 80px 24px;
+}
+
+.hero-container {
+  max-width: var(--max-width);
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  gap: 60px;
+}
+
+.hero-image img {
+  width: 320px;
+  height: 320px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 6px solid var(--light-bg);
+  box-shadow: 0 0 40px rgba(10, 140, 110, 0.35);
+}
+
+.hero-text {
+  flex: 1;
+}
+
+.greeting {
+  font-weight: 700;
+  font-size: 1.1rem;
+  margin-bottom: 6px;
+}
+
+.hero-text h1 {
+  font-size: 3rem;
+  margin-bottom: 6px;
+}
+
+.hero-text h2 {
+  font-size: 1.8rem;
+  margin-bottom: 18px;
+  font-weight: 600;
+}
+
+.hero-desc {
+  color: var(--text-gray);
+  max-width: 560px;
+  margin-bottom: 22px;
+}

@@ -189,6 +189,27 @@
     </div>
   </section>
 
+  <!--contact me-->
+  <section id="contact" class="contact">
+    <br><br>
+    <p class="greeting center">Hello,</p>
+    <h2 class="section-title">Contact <span class="part">Me</span></h2>
+
+    <form class="contact-form" id="contactForm">
+      <div class="form-row">
+        <input type="text" name="name" placeholder="Full Name" required />
+        <input type="email" name="email" placeholder="Email Address" required />
+      </div>
+      <div class="form-row">
+        <input type="tel" name="phone" placeholder="Phone Number" />
+        <input type="text" name="subject" placeholder="Email Subject" />
+      </div>
+      <textarea name="message" placeholder="Your Message" rows="6" required></textarea>
+      <button type="submit" class="btn btn-primary">Send Message</button>
+      <p class="form-status" id="formStatus"></p>
+    </form>
+  </section>
+
   <script src="script.js"></script>
 </body>
 </html>

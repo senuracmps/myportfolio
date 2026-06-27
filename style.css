@@ -400,3 +400,53 @@ a {
   color: var(--primary-dark);
   border-bottom: 2px solid var(--primary-dark);
 }
+
+.contact {
+  padding: 80px 24px;
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.greeting.center {
+  text-align: center;
+}
+
+.contact-form {
+  margin-top: 40px;
+  text-align: left;
+}
+
+.form-row {
+  display: flex;
+  gap: 18px;
+  margin-bottom: 18px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  flex: 1;
+  width: 100%;
+  padding: 14px 16px;
+  border: 2px solid var(--primary);
+  border-radius: var(--radius);
+  font-size: 0.95rem;
+  font-family: inherit;
+}
+
+.contact-form textarea {
+  margin-bottom: 22px;
+  resize: vertical;
+}
+
+.contact-form .btn {
+  display: block;
+  margin: 0 auto;
+}
+
+.form-status {
+  text-align: center;
+  margin-top: 16px;
+  font-weight: 600;
+  color: var(--primary-dark);
+}

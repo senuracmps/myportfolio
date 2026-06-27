@@ -450,3 +450,19 @@ a {
   font-weight: 600;
   color: var(--primary-dark);
 }
+
+.footer {
+  background: var(--light-bg);
+  text-align: center;
+  padding: 40px 24px;
+}
+
+.footer .social-icons {
+  justify-content: center;
+  margin-bottom: 16px;
+}
+
+.footer p {
+  color: var(--text-gray);
+  font-size: 0.9rem;
+}
